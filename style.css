@@ -692,10 +692,12 @@ footer a:hover {
 #contact-details .details {
   width: 40%;
 }
-#contact-details .details span {
-  font-size: 12px;
+#contact-details .details span,
+#form-details form span {
+  font-size: 20px;
 }
-#contact-details .details h2 {
+#contact-details .details h2,
+#form-details form h2{
   font-size: 2 6px;
   line-height: 35px;
   padding: 20px 0;
@@ -712,10 +714,92 @@ footer a:hover {
 #contact-details .details li i {
   font-size: 14px;
   padding-right: 22px;
+  margin-top: 22px;
 }
 #contact-details .details li i p {
   margin: 0;
   font-size: 14px;
+}
+
+#contact-details .map{
+  width: 55%;
+  height: 400px;
+}
+#contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+}
+#form-details form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#form-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form input,
+#form-details form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+#form-details form  button{
+  background-color: #088178;
+  color: #fff;
+
+}
+
+#form-details .people div {
+  padding-bottom:25px;
+ 
+
+
+
+}
+#form-details .people div img{
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 50px;
+}
+#form-details .people div p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+#form-details .people div p span{
+  display: block;
+  font-size: 16px ;
+  font-weight: 600;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.crop{
+  border-radius: 30px;
 }
 
 /* Start Media Query */
@@ -991,4 +1075,33 @@ footer a:hover {
   #about-app .video {
     width: 100%;
   }
+
+  /* Conatact Page */
+
+  #contact-details {
+    display: flex;
+    flex-direction: column;
+}
+#contact-details .details{
+ width: 100%;
+ margin-bottom: 30px;
+}
+#contact-details .map {
+  width: 100%;
+  height: 300px;
+}
+#form-details {
+ margin: 10px;
+ padding: 30px 10px ;
+ flex-wrap: wrap;
+}
+
+#form-details form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
 }
