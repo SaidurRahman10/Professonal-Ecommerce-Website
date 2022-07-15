@@ -10,18 +10,17 @@
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <section id="header">
-      <a href="#"
-        ><img class="img-heder" src="img/logo.png" class="logo" alt=""
-      /></a>
+    <section id="header" class="">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
 
       <div class="navbar">
         <ul id="navbar" class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a  href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a  href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a class="active" href="contact.html">Contact</a></li>
           <li>
@@ -35,15 +34,16 @@
         <span class="bar"></span>
         <span class="bar"></span>
       </div>
+      <button class="nav-btn">Log In</button>
     </section>
 
-    <section id="page-header" class="about-header">
+    <section id="page-header" class="about-header anime">
       <h2>#Let's Talk</h2>
 
       <p>LEAVE A MESSAGE, We love to hear you!</p>
     </section>
 
-    <section id="contact-details" class="section-p1">
+    <section id="contact-details" class="section-p1 anime">
       <div class="details">
         <span>GET IN TOUCH</span>
         <h2>CONTACT US TODAY</h2>
@@ -79,7 +79,7 @@
       </div>
     </section>
 
-    <section id="form-details">
+    <section id="form-details" class="anime">
       <form action="">
         <span>Give a MESSAGE</span>
         <h2>We love to see your Respond</h2>
@@ -125,7 +125,7 @@
       </div>
     </section>
 
-    <section id="newsletter" class="section-p1 section-m1">
+    <section id="newsletter" class="section-p1 section-m1 anime">
       <div class="newstext">
         <h4>Sign Up For Newsletters</h4>
         <p>
@@ -138,7 +138,7 @@
         <a class="normal" href="#">SignUp</a>
       </div>
     </section>
-    <footer class="section-p1">
+    <footer class="section-p1 anime">
       <div class="col">
         <img class="logo" src="img/logo.png" alt="" />
         <h4>Contact</h4>
@@ -188,10 +188,23 @@
         <img class="pay" src="img/pay/pay.png" alt="" />
       </div>
     </footer>
-    <div class="copyright">
+    <div class="copyright anime">
       <p>© SAIDUR RAHMAN 2022 || Student of Programming Hero Community.</p>
     </div>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "1000px", // animation distance
+        duration: 2500,
+        delay: 400,
+      });
 
+      ScrollReveal().reveal(".anime, .anime", { delay: 500, origin: "left" });
+
+      //ScrollReveal().reveal('.classname, .classname', { delay: 500, origin:'right' });
+      //ScrollReveal().reveal('.classname, .classname', { delay: 500, origin:'top' });
+      //ScrollReveal().reveal('.classname, .classname', { delay: 500, origin:'bottom' });
+    </script>
     <script src="css & js/all.js"></script>
     <script src="script.js"></script>
   </body>

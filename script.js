@@ -1,3 +1,6 @@
+
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -12,3 +15,5 @@ document.querySelectorAll(".nav-link").forEach((link) =>
     navMenu.classList.remove("active");
   })
 );
+
+

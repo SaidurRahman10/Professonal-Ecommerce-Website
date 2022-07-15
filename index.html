@@ -10,10 +10,11 @@
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <section id="header">
-      <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+    <section id="header" class="">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
 
       <div class="navbar">
         <ul id="navbar" class="nav-menu">
@@ -25,9 +26,7 @@
           <li>
             <a href="cart.html"><i class="fal fa-shopping-cart"></i></a>
           </li>
-          
         </ul>
-       
       </div>
 
       <div class="hamburger">
@@ -38,16 +37,15 @@
       <button class="nav-btn">Log In</button>
     </section>
 
-    <section id="hero">
+    <section id="hero" class="box">
       <h4>Offer-Close-Soon</h4>
-      <h2>Super Value Deals</h2>
+      <h2>Super Deals</h2>
       <h1>ON Limited Product</h1>
-      <p>Save more with coupons & up to 70% off!</p>
-      <button>Shop Now</button>
+      <p>Save more with coupons & up to 30% off!</p>
+      <button>BUY NOW</button>
     </section>
 
-
-    <section id="product1" class="section-p1">
+    <section id="product1" class="section-p1 box">
       <h1>Featured Product</h1>
       <p>Summer Collection New Morden Design</p>
       <div class="pro-container">
@@ -183,15 +181,13 @@
       </div>
     </section>
 
-    
-
-    <section id="banner" class="section-m1">
+    <section id="banner" class="section-m1 box">
       <h4>Repair Service</h4>
       <h2>Up to <span>70% off </span> All t-Shirts & Accessories</h2>
       <button class="normal">Explore More</button>
     </section>
 
-    <section id="product1" class="section-p1">
+    <section id="product1" class="section-p1 box">
       <h1>New Arrivals</h1>
       <p>Summer Collection New Morden Design</p>
       <div class="pro-container">
@@ -327,7 +323,7 @@
       </div>
     </section>
 
-    <section id="sm-banner" class="section-p1">
+    <section id="sm-banner" class="section-p1 box">
       <div class="banner-box">
         <h4>crazy deals</h4>
         <h2>buy 1 get 1 free</h2>
@@ -342,7 +338,7 @@
       </div>
     </section>
 
-    <section id="banner3" class="section-p1">
+    <section id="banner3" class="section-p1 box">
       <div class="banner-box">
         <h2>SEASONAL SALE</h2>
         <h3>Winter Collection -50% OFF</h3>
@@ -357,7 +353,7 @@
       </div>
     </section>
 
-    <section id="newsletter" class="section-p1 section-m1">
+    <section id="newsletter" class="section-p1 section-m1 box">
       <div class="newstext">
         <h4>Sign Up For Newsletters</h4>
         <p>
@@ -370,7 +366,7 @@
         <a class="normal" href="#">SignUp</a>
       </div>
     </section>
-    <section id="feature" class="section-p1">
+    <section id="feature" class="section-p1 box">
       <div class="fe-box">
         <img src="img/features/f1.png" alt="" />
         <h6>Free Shipping</h6>
@@ -445,13 +441,25 @@
         <p>Secure Payment Gateways</p>
         <img class="pay" src="img/pay/pay.png" alt="" />
       </div>
-
-
     </footer>
     <div class="copyright">
       <p>© SAIDUR RAHMAN 2022 || Student of Programming Hero Community.</p>
     </div>
 
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "1000px", // animation distance
+        duration: 2500,
+        delay: 400,
+      });
+
+      ScrollReveal().reveal(".box, .box", { delay: 500, origin: "left" });
+
+      //ScrollReveal().reveal('.classname, .classname', { delay: 500, origin:'right' });
+      //ScrollReveal().reveal('.classname, .classname', { delay: 500, origin:'top' });
+      //ScrollReveal().reveal('.classname, .classname', { delay: 500, origin:'bottom' });
+    </script>
     <script src="css & js/all.js"></script>
     <script src="script.js"></script>
   </body>

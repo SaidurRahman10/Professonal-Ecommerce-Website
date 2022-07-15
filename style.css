@@ -70,27 +70,25 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: #E4E6F4;
+  background-color: #e4e6f4;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
   top: 0;
   left: 0;
 }
-#header button{
+#header button {
   padding: 8px 25px;
-  background-color: #F78466;
+  background-color: #f78466;
   color: #fff;
-  border: 2px solid #F78466;
+  border: 2px solid #f78466;
   border-radius: 15px;
   cursor: pointer;
   font-weight: 700;
 }
-#header button:hover{
-  
-
+#header button:hover {
   background-color: #fff;
-  color: #F78466;
+  color: #f78466;
 }
 #navbar {
   display: flex;
@@ -116,7 +114,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #F97860;
+  color: #f97860;
 }
 
 #navbar li a.active::after,
@@ -124,7 +122,7 @@ body {
   content: "";
   width: 36%;
   height: 2px;
-  background-color: #F97860;
+  background-color: #f97860;
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -149,7 +147,7 @@ body {
 }
 
 #hero h1 {
-  color: #F97860;
+  color: #f97860;
 }
 
 #hero button {
@@ -264,7 +262,7 @@ body {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #F7684E;
+  color: #f7684e;
 }
 #product1 .pro .cart {
   width: 40px;
@@ -273,7 +271,7 @@ body {
   border-radius: 50px;
   background-color: #e8f6ea;
   font-weight: 500;
-  color: #F97860;
+  color: #f97860;
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
@@ -305,8 +303,8 @@ body {
 #banner span {
   color: #ef3636;
 }
-#banner button{
-  background-color: #F97860;
+#banner button {
+  background-color: #f97860;
 }
 #banner button:hover {
   background-color: #f7684e;
@@ -354,8 +352,8 @@ body {
 }
 
 #sm-banner .banner-box:hover button {
-  background-color: #F97860;
-  border: 1px solid #F97860;
+  background-color: #f97860;
+  border: 1px solid #f97860;
 }
 
 #banner3 {
@@ -534,7 +532,7 @@ footer a:hover {
 }
 #pagination a {
   text-decoration: none;
-  background-color: #F97860;
+  background-color: #f97860;
   padding: 15px 20px;
   border-radius: 4px;
   color: #fff;
@@ -774,13 +772,12 @@ footer a:hover {
   border-radius: 10px;
 }
 #form-details form button {
-  background-color: #F97860;
+  background-color: #f97860;
   color: #fff;
-
 }
-#form-details form button:hover{
-  background-color: aqua; 
-   color: #fff;
+#form-details form button:hover {
+  background-color: aqua;
+  color: #fff;
 }
 #form-details .people div {
   padding-bottom: 25px;
@@ -878,7 +875,7 @@ footer a:hover {
 }
 #coupon button,
 #subtotal button {
-  background-color: #F97860;
+  background-color: #f97860;
   color: #fff;
   padding: 12px 20px;
 }
@@ -927,7 +924,7 @@ footer a:hover {
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
     padding: 80px 0 0 10px;
   }
-  .nav-btn{
+  .nav-btn {
     display: none;
   }
   #navbar.active {
@@ -1076,20 +1073,17 @@ footer a:hover {
     padding: 20px;
   }
   /* Navbar responsive */
-  .logo{
+  .logo {
     width: 100px;
     justify-content: flex-start;
   }
   #header {
-    
     padding: 15px 40px;
-  
-    
-}
+  }
   a.nav-link {
     padding: 0.75rem;
   }
-  .nav-btn{
+  .nav-btn {
     display: none;
   }
   /* End Navbar Responsive */
